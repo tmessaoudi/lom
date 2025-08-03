@@ -9,3 +9,7 @@ dist-ssr
 .cache
 server/dist
 public/dist
+# Ignore SQLite database files
+**/*.db
+**/*.db-journal
+**/*.sqlite
